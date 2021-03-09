@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Prototype</title>
+</head>
+<body>
+    <!-- Menu Start -->
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top menu">
+        <div class="container-fluid">
+        <a class="navbar-brand titlePage" href="./index.html">Bogota Life</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menuList" id="navbarCollapse">
+            <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a
+                class="nav-link active"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+                >
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </header>
+    <!-- End Menu -->
+    <main>
+    <!-- Start Carousel -->
+    <div id="myCarousel" class="carousel slide carouselStyle" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+        ></button>
+        <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+        ></button>
+        <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+        ></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="bd-placeholder-img"
+            width="100%"
+            height="700px"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/coffee.jpg" alt="coffeeShops">
+            <rect width="100%" height="700px" fill="#777" />
+            </img>
+            <div class="container">
+            <div class="carousel-caption text-start">
+                <h1 class="descTxtHead">Coffee Shops</h1>
+                <p class="descriptionTxt">
+                Browse local coffee shops around the city, find new places to visit and enjoy a cup of hot joe.
+                </p>
+                <p>
+                <a class="btn btn-lg btn-primary" href="#">Explore Today</a>
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="bd-placeholder-img"
+            width="100%"
+            height="700px"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/museums.jpg" alt="museums">
+            <rect width="100%" height="700px" fill="#777" />
+            </img>
+
+            <div class="container">
+            <div class="carousel-caption">
+                <h1 class="descTxtHead">Museums</h1>
+                <p class="descriptionTxt">
+                Browse from the most popular to the underground museums located in Bogota.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Explore Museums</a></p>
+            </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="bd-placeholder-img"
+            width="100%"
+            height="700px"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/concert.jpg" alt="nightLife">
+            <rect width="100%" height="700px" fill="#777" />
+            </img>
+
+            <div class="container">
+            <div class="carousel-caption text-end">
+                <h1 class="descTxtHeadW">Night Life</h1>
+                <p class="descriptionTxtW">
+                Experience Bogota at night, browse all of the events that Bogota Nightlife has to offer.
+                </p>
+                <p>
+                <a class="btn btn-lg btn-primary" href="#">Events Tonight</a>
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
+        <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+        >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+        >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel Finish -->
+    <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+        <div class="col-lg-4 padTop">
+            <img class="bd-placeholder-img rounded-circle"
+            width="140px"
+            height="140px"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/parks.jpg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <h2>Parks</h2>
+            <p>
+            Explore beautiful parks both in and around the great city of Bogota.
+            </p>
+            <p>
+            <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 padTop">
+            <img class="bd-placeholder-img rounded-circle"
+            width="140px"
+            height="140px"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/bars.jpg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <h2>Bars</h2>
+            <p>
+            Find the best bars in town, ranging from sports bars, draft bars, and many more options to explore in Bogota.
+            </p>
+            <p>
+            <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4 padTop">
+            <img class="bd-placeholder-img rounded-circle"
+            width="140px"
+            height="140px"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 140x140"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/carnival.jpg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" />
+            </img>
+
+            <h2>Carnivals</h2>
+            <p>
+            Find the best attractions in Bogota, whether you want a theme park ride or taking a train ride out of town.
+            </p>
+            <p>
+            <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+        </div>
+        <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">
+            World Travel Awards (WTA).
+            <span class="text-muted">South America 2015.</span>
+            </h2>
+            <p class="lead">
+            Recognized as the city ranked as best destination in Colombia, the best getaway destination, the best Travel destination and the best Tourism Promoting City (2015).
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/church.jpg"
+            >
+            <title>Awards</title>
+            <rect width="100%" height="100%" fill="#eee" />
+            </img>
+        </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+            Good Practices Award by the UN.
+            <span class="text-muted">Culture and Respect with LGBTI population.</span>
+            </h2>
+            <p class="lead">
+            In 2015 UN Habitat along with the government of Dubai, bestowed upon Bogota this award because of it's public policy of 'In Bogota you can be' a strategy that looks to encourage a culture of respect towards LGBTI groups.
+            </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/pride.jpg"
+            >
+            <title>Pride Flag</title>
+            <rect width="100%" height="100%" fill="#eee" />
+        </img>
+        </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">
+            City of Music. <span class="text-muted">Awarded by UNESCO.</span>
+            </h2>
+            <p class="lead">
+            In 2012, UNESCO recognized Bogota as a city which promotes music as a tool in the socioeconomic and cultural diversity development. It was also a recognition to the growth in its musical sector and the central stage of music creation of Latin America.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false" src="./assets/img/concert1.jpg"
+            >
+            <title>Concert1</title>
+            <rect width="100%" height="100%" fill="#eee" />
+            </img>
+        </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+    </div>
+    <!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+        &copy; 2020–2021 S&R Developers. &middot;
+        <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+    </footer>
+    </main>
+
+    <script
+    src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"
+    ></script>
+
+    <!-- Scripts Start DO NOT TOUCH -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Scripts End -->
+</body>
+</html>
